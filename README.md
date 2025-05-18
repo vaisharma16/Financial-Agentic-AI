@@ -1,6 +1,10 @@
 # 💸 AI Financial Agent using Phidata
 
-This project is an **Agentic AI system** that can answer financial questions, fetch stock market data, and provide real-time information by combining the power of:
+This project is an **Agentic AI system** that acts like a personal financial research assistant. It combines multiple tools—web search, financial APIs, and LLMs—to autonomously answer finance-related questions, retrieve real-time stock data, and provide contextual explanations.
+
+> 🔧 Built by following Krish Naik’s tutorial: [Building Your First Agentic AI - Financial Agent With Phidata](https://www.youtube.com/watch?v=74SnvbQYgx8)
+
+---
 
 ## 📌 Project Aim
 
@@ -18,19 +22,19 @@ With **Phidata’s open-source agent framework**, this project demonstrates how 
 
 ---
 
-### 💼 Real-World Use Cases
+## 💼 Real-World Use Cases
 
 This project can act as the foundation for:
 
-- 🏦 **Financial research bots** for banks or investment firms
-- 📈 Personalized **retail investor advisors**
-- 📰 Real-time **market monitoring tools**
-- 🤖 Backend for chat-based **wealth management assistants**
-- 🔍 AI-powered **equity research co-pilots**
+- 🏦 Financial research bots for banks or investment firms
+- 📈 Personalized retail investor advisors
+- 📰 Real-time market monitoring tools
+- 🤖 Chat-based wealth management assistants
+- 🔍 AI-powered equity research co-pilots
 
 ---
 
-### 🧠 Why Agentic AI?
+## 🧠 Why Agentic AI?
 
 Agentic AI goes beyond question answering — it mimics human-like workflows:
 - Decomposes user goals into sub-tasks
@@ -38,15 +42,6 @@ Agentic AI goes beyond question answering — it mimics human-like workflows:
 - Makes decisions based on intermediate steps
 
 This project shows how **next-gen AI agents** can automate meaningful work in domains like **finance**, **research**, and **analytics**.
-
-
-
-- 🧠 [Phidata](https://www.phidata.com/)
-- 🌐 DuckDuckGo for web search
-- 📈 Yahoo Finance via `yfinance`
-- ⚡ LLMs via `groq` (Mixtral or other models)
-
-> Built by following Krish Naik’s tutorial: [Building Your First Agentic AI - Financial Agent With Phidata](https://www.youtube.com/watch?v=74SnvbQYgx8)
 
 ---
 
@@ -87,7 +82,7 @@ pip install -r requirements.txt
 
 ### 4. Add Your API Keys
 
-Create a `.env` file in the root directory with the following:
+Create a `.env` file in the root directory with the following content:
 
 ```env
 PHIDATA_API_KEY=your_phidata_api_key
@@ -98,39 +93,36 @@ GROQ_API_KEY=your_groq_api_key
 
 ## 🚀 How to Run
 
-Run the playground script to start interacting with the financial agent:
+Launch the agent playground:
 
 ```bash
 python playground.py
 ```
 
----
-
-## 💡 What Can This Agent Do?
-
-- 📊 Answer queries like:  
-  - “What is the current stock price of Tesla?”
-  - “Give me the latest financial news about Microsoft.”
-  - “Explain what EBITDA means.”
-- 🌍 Search the web using DuckDuckGo
-- 🧠 Use Mixtral or other LLMs via Groq for reasoning and answers
+Ask anything like:
+- "What is the current stock price of Tesla?"
+- "Explain what is EBITDA."
+- "Give me latest news about Infosys."
 
 ---
 
-## 📌 Requirements
+## 🧩 Tools & Technologies Used
 
-- Python 3.12+
-- API Keys for:
-  - [Phidata](https://www.phidata.com/)
-  - [Groq](https://console.groq.com/)
+- [Phidata](https://www.phidata.com/) — Agent framework
+- [Groq](https://console.groq.com/) — LLMs (Mixtral, LLaMA)
+- [DuckDuckGo Search](https://duckduckgo.com/api) — Real-time information
+- [YFinance](https://pypi.org/project/yfinance/) — Stock price and financial data
+- Python 3.12, `.env` for secrets
 
+---
 
 ---
 
 ## 📚 Reference
 
-- [Krish Naik’s Tutorial Blog](https://www.krishnaik.in/blog/Building%20Your%20First%20Agentic%20AI-%20Financial%20Agent%20With%20Phidata)
+- [Krish Naik’s Blog](https://www.krishnaik.in/blog/Building%20Your%20First%20Agentic%20AI-%20Financial%20Agent%20With%20Phidata)
 - [Phidata Documentation](https://docs.phidata.com/)
+- [Groq API Docs](https://console.groq.com/)
 
 ---
 
